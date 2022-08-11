@@ -1,5 +1,3 @@
 settings:
   ignoredEvents: [ "PlayerMoveEvent", "PlayerStatisticIncrementEvent", "PlayerCommandSendEvent" ]
   classPrefix: "org.bukkit"
-functions:
-  reload: false
