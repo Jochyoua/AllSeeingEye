@@ -59,11 +59,6 @@ public final class AllSeeingEye extends JavaPlugin implements Listener {
             }
             AllSeeingEyeUtils.logMessage(getClassData(event), event.getEventName(), ((EntityEvent) event).getEntity().getName());
         }
-        if (getConfig().getBoolean("functions.reload")) {
-            reloadPlugin();
-            getConfig().set("functions.reload", false);
-            saveConfig();
-        }
     }
 
     private <T> String getClassData(T t) {
