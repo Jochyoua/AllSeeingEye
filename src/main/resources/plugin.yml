@@ -1,0 +1,8 @@
+name: AllSeeingEye
+version: '${project.version}'
+main: io.github.jochyoua.allseeingeye.AllSeeingEye
+api-version: 1.13
+authors: [ Jochyoua ]
+description:
+  "A view into the other world!: Logging every event a player triggers"
+website: https://jochyoua.github.io/
